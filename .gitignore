@@ -30,3 +30,9 @@ nbbuild/
 dist/
 nbdist/
 .nb-gradle/
+
+
+### node and npm
+node
+npm
+npm.cmd
