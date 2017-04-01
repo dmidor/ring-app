@@ -1,0 +1,13 @@
+{
+  "name": "ring-app",
+  "description": "Ring application",
+  "version": "0.0.0",
+  "homepage": "",
+  "license": "",
+  "private": true,
+  "dependencies": {
+    "angular": "~1.5.0",
+    "angular-route": "~1.5.0",
+    "angular-material": "~1.1.3"
+  }
+}

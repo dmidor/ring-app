@@ -1,0 +1,67 @@
+<div>
+
+    <md-content layout-padding>
+        <form name="projectForm">
+
+            <div flex="100" layout="row" ng-repeat="ring in rings">
+                <div flex="25">{{ring.ringId}}</div>
+                <div flex="25">{{ring.ownerId}}</div>
+                <div flex="25">{{ring.name}}</div>
+                <div flex="25">
+                    <md-button ng-click="delete(ring.ringId)">delete</md-button>
+                </div>
+            </div>
+
+
+            <div flex="100" layout="row">
+
+                <div flex="25">
+                    <md-input-container class="md-block">
+                        <label>Id</label>
+                        <input required md-no-asterisk name="description"
+                               ng-model="newRing.ringId">
+                        <div ng-messages="projectForm.description.$error">
+                            <div ng-message="required">This is required.</div>
+                            <div ng-message="md-maxlength">The description must be less than 30 characters long.</div>
+                        </div>
+                    </md-input-container>
+                </div>
+
+                <div flex="25">
+                    <md-input-container class="md-block">
+                        <label>owner</label>
+                        <input required md-no-asterisk name="description"
+                               ng-model="newRing.ownerId">
+                        <div ng-messages="projectForm.description.$error">
+                            <div ng-message="required">This is required.</div>
+                            <div ng-message="md-maxlength">The description must be less than 30 characters long.</div>
+                        </div>
+                    </md-input-container>
+                </div>
+
+
+                <div flex="25">
+                    <md-input-container class="md-block">
+                        <label>name</label>
+                        <input required md-no-asterisk name="description"
+                               ng-model="newRing.name">
+                        <div ng-messages="projectForm.description.$error">
+                            <div ng-message="required">This is required.</div>
+                            <div ng-message="md-maxlength">The description must be less than 30 characters long.</div>
+                        </div>
+                    </md-input-container>
+                </div>
+
+                <div flex="25">
+                    <md-button
+                            ng-disabled="projectForm.$invalid"
+                            ng-click="add(newRing)">
+                        add new
+                    </md-button>
+                </div>
+            </div>
+        </form>
+
+    </md-content>
+
+</div>

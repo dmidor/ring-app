@@ -1,0 +1,4 @@
+{
+    "common": ["src/main/static/src/common/**/*.js"],
+    "index": ["src/main/static/src/index/**/*.js"]
+}

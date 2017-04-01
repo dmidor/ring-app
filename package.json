@@ -1,0 +1,43 @@
+{
+  "name": "ring-app",
+  "version": "0.1.0",
+  "description": "Ring application",
+  "main": "index.html",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "postinstall": "bower install",
+    "build": "gulp build",
+    "watch": "gulp watch",
+    "test": "gulp test"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "ssh://git-codecommit.us-west-2.amazonaws.com/v1/repos/ring-app"
+  },
+  "devDependencies": {
+    "add-stream": "latest",
+    "bower": "latest",
+    "gulp": "3.9.1",
+    "gulp-angular-templatecache": "latest",
+    "gulp-autoprefixer": "latest",
+    "gulp-concat": "latest",
+    "gulp-if": "^2.0.2",
+    "gulp-jshint": "^2.0.1",
+    "gulp-ng-annotate": "latest",
+    "gulp-rigger": "latest",
+    "gulp-sass": "latest",
+    "gulp-sourcemaps": "latest",
+    "gulp-uglify": "latest",
+    "gulp-watch": "latest",
+    "gulp-rename": "latest",
+    "jasmine-core": "^2.4.1",
+    "jshint": "^2.9.2",
+    "karma": "^0.13.22",
+    "karma-jasmine": "^1.0.2",
+    "karma-phantomjs-launcher": "^1.0.1",
+    "node-bourbon": "^4.2.8"
+  }
+}

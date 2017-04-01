@@ -1,0 +1,14 @@
+server:
+    port: 8080
+
+spring:
+    datasource:
+        url: jdbc:mysql://localhost:3306/ring
+        username: root
+        password: root
+
+flyway:
+    url: jdbc:mysql://localhost:3306/ring
+    user: root
+    password: root
+    table: schema_version
