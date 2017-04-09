@@ -4,7 +4,6 @@ angular
     .module('ring')
     .provider('routing', routingProvider);
 
-
 function routingProvider() {
 
     var routing = {

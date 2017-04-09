@@ -30,6 +30,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     protected void configure(HttpSecurity http) throws Exception {
         http.authorizeRequests()
                 .antMatchers("/**").hasRole("ALL")
+//                .antMatchers("/**").permitAll()
                 .anyRequest().fullyAuthenticated();
 
         http.httpBasic();

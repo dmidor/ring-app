@@ -25,11 +25,11 @@ var path = {
 
 var buildJs = function(input, output) {
     gulp.src(properties.common.concat(input))
-    // .pipe(sourcemaps.init())
+    .pipe(sourcemaps.init())
         .pipe(concat(output))
         .pipe(ngAnnotate())
-        // .pipe(uglify())
-        // .pipe(sourcemaps.write('.'))
+        .pipe(uglify())
+        .pipe(sourcemaps.write('.'))
         .pipe(gulp.dest(path.build.js));
 }
 

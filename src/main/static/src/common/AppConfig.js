@@ -11,7 +11,7 @@ angular
         var routing = routingProvider.$get();
 
         $routeProvider
-            .otherwise(routing.configure('Home', '/src', 'Home'));
+            .otherwise(routing.configure('Home', '/src/index', 'Home'));
 
         $mdThemingProvider.definePalette('ring-palette', {
             '50': 'edf5ea',
