@@ -1,9 +1,9 @@
-package com.ring.controller;
+package com.rodim.ring.controller;
 
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.ring.security.AuthorizedUser;
+import com.rodim.ring.security.AuthorizedUser;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 

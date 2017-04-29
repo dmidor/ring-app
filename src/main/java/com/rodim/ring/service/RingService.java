@@ -1,7 +1,7 @@
-package com.ring.service;
+package com.rodim.ring.service;
 
-import com.ring.persistence.model.Ring;
-import com.ring.persistence.repository.RingRepository;
+import com.rodim.ring.persistence.model.Ring;
+import com.rodim.ring.persistence.repository.RingRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

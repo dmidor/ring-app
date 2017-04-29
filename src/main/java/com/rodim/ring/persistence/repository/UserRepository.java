@@ -1,7 +1,7 @@
-package com.ring.persistence.repository;
+package com.rodim.ring.persistence.repository;
 
 
-import com.ring.persistence.model.User;
+import com.rodim.ring.persistence.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

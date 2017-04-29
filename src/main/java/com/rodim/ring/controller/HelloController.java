@@ -1,4 +1,4 @@
-package com.ring.controller;
+package com.rodim.ring.controller;
 
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.RequestMapping;

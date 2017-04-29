@@ -1,4 +1,4 @@
-package com.ring.config;
+package com.rodim.ring.config;
 
 
 import org.springframework.boot.SpringApplication;

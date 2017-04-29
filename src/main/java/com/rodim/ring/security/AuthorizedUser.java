@@ -1,4 +1,4 @@
-package com.ring.security;
+package com.rodim.ring.security;
 
 
 import org.springframework.security.core.GrantedAuthority;

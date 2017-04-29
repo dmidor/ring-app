@@ -1,4 +1,4 @@
-package com.ring.persistence.model;
+package com.rodim.ring.persistence.model;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;

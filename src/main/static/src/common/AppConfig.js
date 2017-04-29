@@ -1,7 +1,7 @@
 'use strict';
 
 angular
-    .module('ring', ['ngRoute', 'ngMaterial']);
+    .module('ring', ['ui.router', 'ngMaterial']);
 
 angular
     .module('ring')

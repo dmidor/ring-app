@@ -24,7 +24,7 @@ function HomeController($route, $scope, $http) {
 
     };
 
-    $http.get('/api/ring').then(function (response) {
+    $http.get('/people').then(function (response) {
         $scope.rings = response.data;
     });
 }

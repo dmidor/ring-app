@@ -1,6 +1,6 @@
-package com.ring.persistence.repository;
+package com.rodim.ring.persistence.repository;
 
-import com.ring.persistence.model.Ring;
+import com.rodim.ring.persistence.model.Ring;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
